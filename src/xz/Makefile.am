@@ -14,6 +14,8 @@ xz_SOURCES = \
 	coder.h \
 	file_io.c \
 	file_io.h \
+	harness.c \
+	harness.h \
 	hardware.c \
 	hardware.h \
 	list.c \

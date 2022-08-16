@@ -109,6 +109,7 @@ SRCS_C = \
 	../src/xz/args.c \
 	../src/xz/coder.c \
 	../src/xz/file_io.c \
+	../src/xz/harness.c \
 	../src/xz/hardware.c \
 	../src/xz/list.c \
 	../src/xz/main.c \
