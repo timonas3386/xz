@@ -10,22 +10,22 @@
 //
 ///////////////////////////////////////////////////////////////////////////////
 
-#include "lzma.h"
-#include "mythread.h"
 #include "sysdefs.h"
+#include "mythread.h"
+#include "lzma.h"
 
-#include <errno.h>
-#include <locale.h>
-#include <signal.h>
-#include <stdio.h>
-#include <sys/stat.h>
 #include <sys/types.h>
+#include <sys/stat.h>
+#include <errno.h>
+#include <signal.h>
+#include <locale.h>
+#include <stdio.h>
 #include <unistd.h>
 
-#include "tuklib_exit.h"
 #include "tuklib_gettext.h"
-#include "tuklib_mbstr.h"
 #include "tuklib_progname.h"
+#include "tuklib_exit.h"
+#include "tuklib_mbstr.h"
 
 #if defined(_WIN32) && !defined(__CYGWIN__)
 #define WIN32_LEAN_AND_MEAN
